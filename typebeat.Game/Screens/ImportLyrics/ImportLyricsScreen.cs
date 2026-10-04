@@ -168,7 +168,7 @@ namespace typebeat.Game.Screens.ImportLyrics
             InternalChild = contentContainer = new Container
             {
                 Masking = true,
-                CornerRadius = 10,
+                CornerRadius = UICorners.RADIUS,
                 RelativeSizeAxes = Axes.Both,
                 Anchor = Anchor.Centre,
                 Origin = Anchor.Centre,
@@ -748,7 +748,7 @@ namespace typebeat.Game.Screens.ImportLyrics
                 RelativeSizeAxes = Axes.X;
                 Height = 60;
                 Masking = true;
-                CornerRadius = 8;
+                CornerRadius = UICorners.RADIUS;
 
                 Children = new Drawable[]
                 {
